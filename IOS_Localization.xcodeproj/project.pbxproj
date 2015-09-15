@@ -40,6 +40,8 @@
 		F13281891BA7BBB50064D00D /* IOS_LocalizationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOS_LocalizationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F132818E1BA7BBB50064D00D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F132818F1BA7BBB50064D00D /* IOS_LocalizationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOS_LocalizationTests.m; sourceTree = "<group>"; };
+		F13281991BA7BBE90064D00D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		F132819A1BA7BBE90064D00D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -248,6 +250,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				F132817E1BA7BBB50064D00D /* Base */,
+				F13281991BA7BBE90064D00D /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				F13281831BA7BBB50064D00D /* Base */,
+				F132819A1BA7BBE90064D00D /* zh-Hans */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
