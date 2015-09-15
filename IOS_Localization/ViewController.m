@@ -16,7 +16,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    UIButton *testButton_tmp=[[UIButton alloc] initWithFrame:CGRectMake(100, 100, 150, 50)];
+    
+    [testButton_tmp setTitle:NSLocalizedString(@"First",nil) forState:UIControlStateNormal];
+    
+    testButton_tmp.backgroundColor=[UIColor blueColor];
+    [self.view addSubview:testButton_tmp];
 }
 
 - (void)didReceiveMemoryWarning {
